@@ -5,12 +5,12 @@ $valor = $_POST['dato'];
 
 if($valor=='1')
 {
-    exec('sudo python /var/www/voz/prende.py');
+    exec('sudo python prende.py');
     $retorna=1;
 }
 else
 {
-    exec('sudo python /var/www/voz/apaga.py');
+    exec('sudo python apaga.py');
     $retorna=2;
 }
 
